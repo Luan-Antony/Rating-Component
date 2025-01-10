@@ -1,0 +1,11 @@
+@media screen and (max-width: 376px) {
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card-rating .card-rating-button {
+        width: 40px;
+        height: 40px;
+    }
+}
