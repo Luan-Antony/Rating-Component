@@ -18,26 +18,38 @@
 
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
+
 <body>
   <main>
     <section class="card">
-      <div class="card__image">
+      <div class="card-image">
         <img src="./src/images/icon-star.svg" alt="star icon">
       </div>
-      <h1 class="card__title">How did we do?</h1>
-      <p class="card__description">
+      <h1 class="card-title">How did we do?</h1>
+      <p class="card-description">
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
-      <div class="card__rating">
-        <button class="card__rating__button">1</button>
-        <button class="card__rating__button">2</button>
-        <button class="card__rating__button">3</button>
-        <button class="card__rating__button">4</button>
-        <button class="card__rating__button">5</button>
+      <div class="card-rating">
+        <button class="card-rating-button">1</button>
+        <button class="card-rating-button">2</button>
+        <button class="card-rating-button">3</button>
+        <button class="card-rating-button">4</button>
+        <button class="card-rating-button">5</button>
       </div>
-      <button class="card__submit">Submit</button>
+      <button class="card-submit">Submit</button>
+    </section>
+
+    <section class="card-thank-you hidden ">
+      <img src="./src/images/illustration-thank-you.svg" alt="thank you illustration">
+      <p class="card-thank-you-rating">You selected <span class="card-thank-you-rating-value"></span> out of 5</p>
+      <h2 class="card-thank-you-title">Thank you!</h2>
+      <p class="card-thank-you-description">We appreciate you taking the time to give a rating.
+        if you ever need more support, don't hesitate to get in touch!
+      </p>
     </section>
   </main>
+
+  <script src="./src/js/index.js"></script>
 </body>
 </html>
