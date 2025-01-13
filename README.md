@@ -9,4 +9,4 @@ Cartão de avaliação de 1 a 5 com cartão de agradecimento
 -JavaScript
 
 ### Layout para Desktop
-<img src="/design/rating-card.gif">
+<img src="src/design/rating-card.gif">
